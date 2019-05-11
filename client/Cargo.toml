@@ -5,3 +5,5 @@ authors = ["marior765 <d.bohatyrchk@gmail.com>"]
 edition = "2018"
 
 [dependencies]
+server = { path = "../server" }
+tokio = "0.1.19"

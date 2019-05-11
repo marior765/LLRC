@@ -1,3 +1,6 @@
+use server::*;
+use std::thread;
+
 fn main() {
-    println!("Hello, world!");
+    init_client("127.0.0.1:6142");
 }
